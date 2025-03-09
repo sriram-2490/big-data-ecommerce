@@ -15,9 +15,9 @@ The project ingested data from multiple sources:
   - `olist_products_dataset.csv`
   - `olist_sellers_dataset.csv`
   - `product_category_name_translation.csv`
-- **SQL Database (Files.io):** Hosted `olist_order_payments_dataset.csv`.
+- **SQL Database (Filess.io):** Hosted `olist_order_payments_dataset.csv`.
 - **HTTP (GitHub):** Hosted seven CSV files.
-- **MongoDB (Files.io):** Hosted `product_category_name_translation.csv`.
+- **MongoDB (Filess.io):** Hosted `product_category_name_translation.csv`.
 
 ## ETL Pipeline - Data Processing Steps
 ### **1. Data Ingestion (Azure Data Factory)**
@@ -62,11 +62,8 @@ The project followed a **Medallion Architecture** with structured data flow:
 ✅ **External tables & views in Synapse** for fast querying.
 ✅ **Integration of SQL, HTTP & NoSQL sources** into a unified data model.
 
-## **Conclusion**
+
 This project successfully implemented an end-to-end **Big Data Analytics Pipeline** using Azure services. The structured **ETL workflow** and **optimized data storage** enable seamless data analysis, making it a valuable asset for **E-commerce analytics and business intelligence**.
 
----
-**🔗 [GitHub Repository](#)** (Add your repo link here)
 
-This README provides a structured and detailed overview of the project, making it suitable for GitHub documentation. Let me know if you need any modifications! 🚀
 
